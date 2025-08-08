@@ -1,69 +1,67 @@
-# Análisis de hábitos de escucha en Springfield y Shelbyville
+# Sprint 3 - Project: Listening Habit Analysis in Springfield and Shelbyville
 
-##  Descripción del proyecto
+## Project Description
 
-Este proyecto tiene como objetivo analizar datos reales de transmisión de música online para explorar los hábitos de escucha de los usuarios y las usuarias en dos ciudades: **Springfield** y **Shelbyville**.
+This project aims to analyze real-world online music streaming data to explore the listening habits of users in two cities: **Springfield** and **Shelbyville**.
 
-A través de este análisis, se busca identificar patrones de comportamiento según el día de la semana y la ciudad, utilizando técnicas de limpieza, preprocesamiento y análisis de datos.
-
----
-
-##  Instrucciones para completar el proyecto
-
-El proyecto se desarrolla en un cuaderno de Jupyter, que contiene celdas de código y celdas Markdown para describir los resultados. Se recomienda:
-
-- Incluir una introducción clara con los objetivos del análisis.
-- Documentar cada etapa del proceso con observaciones relevantes.
-- Finalizar con una conclusión que resuma los hallazgos principales.
+Through this analysis, we seek to identify patterns of behavior based on day of the week and city, using data cleaning, preprocessing, and analysis techniques.
 
 ---
 
-##  Estructura del proyecto
+## Instructions for Completing the Project
 
-### Etapa 1: Descripción de los datos
+The project is developed in a Notebook, which contains code cells and Markdown cells to describe the results. It is recommended to:
 
-- Exploración inicial del conjunto de datos.
-- Revisión de las columnas y tipos de datos.
-- Observaciones preliminares sobre la distribución de los datos.
-
-### Etapa 2: Preprocesamiento de datos
-
-- Revisión y corrección de nombres de columnas.
-- Eliminación de valores duplicados.
-- Manejo de valores ausentes.
-- Observaciones sobre la calidad de los datos.
-
-### Etapa 3: Análisis
-
-- Comparación de la actividad de escucha entre Springfield y Shelbyville.
-- Análisis por día de la semana.
-- Visualización de patrones de comportamiento.
-- Comentarios sobre las diferencias encontradas.
+- Include a clear introduction with the objectives of the analysis.
+- Document each stage of the process with relevant observations.
+- End with a conclusion that summarizes the main findings.
 
 ---
 
-##  Diccionario de datos
+## Project Structure
 
-| Columna   | Descripción |
+### Stage 1: Data Description
+
+- Initial exploration of the dataset.
+- Review of columns and data types.
+- Preliminary observations on data distribution.
+
+### Stage 2: Data Preprocessing
+
+- Review and correct column names.
+- Eliminate duplicate values.
+- Handle missing values.
+- Observations on data quality.
+
+### Stage 3: Analysis
+
+- Comparison of listening activity between Springfield and Shelbyville.
+- Analysis by day of the week.
+- Visualization of behavioral patterns.
+- Comments on differences found.
+
+---
+
+## Dataset
+
+| Column | Description |
 |-----------|-------------|
-| `userID`  | Identificador único de cada usuario o usuaria |
-| `Track`   | Título de la canción |
-| `artist`  | Nombre del artista |
-| `genre`   | Género musical |
-| `City`    | Ciudad del usuario o la usuaria |
-| `time`    | Hora de reproducción (HH:MM:SS) |
-| `Day`     | Día de la semana |
+| `userID` | Unique identifier for each user |
+| `Track` | Song title |
+| `artist` | Artist name |
+| `genre` | Music genre |
+| `City` | User's city |
+| `time` | Playback time (HH:MM:SS) |
+| `Day` | Day of the week |
 
 ---
 
-##  Fuente de datos
-
-Los datos se encuentran en el archivo:  
-`/datasets/music_project_en.csv`
+## Checklist
+- Complete all project stages and fill in each cell.
+- Logical project structure.
 
 ---
 
-##  Conclusiones
-_(Incluirá un resumen de los hallazgos más relevantes del análisis, incluyendo diferencias entre ciudades, patrones de escucha por día, y cualquier otro insight significativo.)_
-
-
+## Tools
+- Python
+- Pandas
